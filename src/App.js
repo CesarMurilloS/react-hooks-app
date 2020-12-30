@@ -1,13 +1,14 @@
 import React from 'react';
 import Contador from './components/Contador'
-import Listas from './components/Listas';
+import Formulario from './components/Formulario';
+import Lista from './components/Lista';
+import JsxAccion from './components/JsxAccion';
 
 function App() {
   return (
-    <>
-    <Contador />
-    <Listas></Listas>
-    </>
+    <div className="container mt-5">
+    <Formulario></Formulario>
+    </div>
   );
 }
 
