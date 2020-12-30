@@ -38,7 +38,9 @@ const HookForm = () => {
                 <span className="text-danger text-small d-block mb-2">
                     {errors.usuario && errors.usuario.message}
                 </span>
-                <button type="submit" className="btn btn-primary">
+                <button 
+                type="submit" 
+                className="btn btn-primary">
                     Enviar
                 </button>
             </form>
